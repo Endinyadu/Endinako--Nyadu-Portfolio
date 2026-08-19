@@ -1,0 +1,137 @@
+LM
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Endinako Nyadu | Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; scroll-behavior: smooth; }
+    body { background: #f5f7fa; color: #333; }
+    
+    nav { background: #1e3a8a; padding: 15px; position: sticky; top: 0; text-align: center; }
+    nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+    
+    header { background: linear-gradient(135deg, #1e3a8a, #2563eb); color: white; padding: 100px 20px; text-align: center; }
+    header h1 { font-size: 3rem; margin-bottom: 10px; }
+    .btn { display: inline-block; margin: 10px; padding: 12px 25px; background: white; color: #1e3a8a; text-decoration: none; border-radius: 8px; font-weight: bold; }
+    .btn-dark { background: #1e293b; color: white; }
+    
+    section { padding: 70px 20px; max-width: 1100px; margin: auto; }
+    h2 { text-align: center; margin-bottom: 40px; color: #1e3a8a; font-size: 2.2rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    .card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+    .skill { background: #dbeafe; color: #1e3a8a; padding: 10px 18px; border-radius: 20px; display: inline-block; margin: 5px; font-weight: bold; }
+    footer { background: #1e3a8a; color: white; text-align: center; padding: 30px 20px; }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#home">Home</a> <a href="#about">About</a> <a href="#skills">Skills</a> 
+    <a href="#projects">Projects</a> <a href="#education">Education</a> <a href="#contact">Contact</a>
+  </nav>
+
+  <header id="home">
+    <h1>Endinako Nyadu</h1>
+    <p>Customer Service Professional | Digital Services Assistant</p>
+    <p>Benoni, South Africa</p>
+    <a href="#contact" class="btn">Contact Me</a>
+    <a href="CV_Endinako_Nyadu.pdf" class="btn-dark" download>Download CV</a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>I am a dedicated and adaptable professional with experience in customer service. At LM Internet Cafe I helped customers with forms, printing, and digital services. I am a team player with strong communication and problem-solving skills. I am eager to learn new technologies and grow in my career.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <h3>Technical Skills</h3>
+    <div style="margin:20px 0;">
+      <span class="skill">Microsoft Office</span>
+      <span class="skill">Data Capturing</span>
+      <span class="skill">Printing & Scanning</span>
+      <span class="skill">Form Filling</span>
+    </div>
+    <h3>Soft Skills</h3>
+    <div style="margin:20px 0;">
+      <span class="skill">Communication</span>
+      <span class="skill">Teamwork</span>
+      <span class="skill">Problem Solving</span>
+      <span class="skill">Time Management</span>
+      <span class="skill">Customer Service</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>1. Professional Portfolio Website</h3>
+        <p>This website! Built to showcase my skills and experience online for job applications.</p>
+        <p><b>Tools:</b> HTML, CSS, ChatGPT for code help</p>
+      </div>
+      <div class="card">
+        <h3>2. Customer Service Improvement</h3>
+        <p>Created a simple guide at LM Internet Cafe to help customers fill forms faster and with fewer mistakes.</p>
+        <p><b>Tools:</b> Microsoft Word, Customer Service</p>
+      </div>
+      <div class="card">
+        <h3>3. Digital Assistance Project</h3>
+        <p>Helped 20+ community members with online job applications and printing CVs at the internet cafe.</p>
+        <p><b>Tools:</b> Internet, Email, Printing</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education & Certifications</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Iingcinga Zethu SS</h3>
+        <p><b>Matric</b> | Completed 2022</p>
+      </div>
+      <div class="card">
+        <h3>Google Digital Skills</h3>
+        <p><b>Digital Marketing Basics</b> | Free Online Course 2024</p>
+      </div>
+      <div class="card">
+        <h3>CAPACITI</h3>
+        <p><b>AI Skills Program</b> | 2026 - In Progress</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <div class="card">
+      <h3>Assistant - LM Internet Cafe</h3>
+      <p><b>Jan 2024 - Dec 2024 | Benoni</b></p>
+      <ul>
+        <li>Helped customers with printing, copying and scanning</li>
+        <li>Assisted with filling out job and government forms</li>
+        <li>Provided friendly customer service every day</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="card" style="text-align:center;">
+      <p><b>Email:</b> nyaduendinako871@gmail.com</p>
+      <p><b>Phone:</b> 078 620 8441</p>
+      <p><b>Location:</b> Benoni 1501, South Africa</p>
+      <p><b>GitHub:</b> github.com/yourusername</p>
+      <p><b>LinkedIn:</b> linkedin.com/in/yourprofile</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Endinako Nyadu | Made with AI Help</p>
+  </footer>
+
+</body>
+</html>
